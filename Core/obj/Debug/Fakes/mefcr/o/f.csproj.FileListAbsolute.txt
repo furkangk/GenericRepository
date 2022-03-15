@@ -1,0 +1,2 @@
+C:\Users\Furkan\source\repos\MiaTeknoloji\Core\obj\Debug\Fakes\mefcr\o\f.csproj.AssemblyReference.cache
+C:\Users\Furkan\source\repos\MiaTeknoloji\Core\obj\Debug\Fakes\mefcr\o\f.csproj.CoreCompileInputs.cache

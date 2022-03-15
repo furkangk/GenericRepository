@@ -1,0 +1,4 @@
+C:\Users\Furkan\source\repos\MiaTeknoloji\Core\Fakes\System.Data.SqlClient.fakes : warning : FxResources.System.Data.SqlClient.SR için saplama oluşturulamıyor: Tür mühürlü.
+C:\Users\Furkan\source\repos\MiaTeknoloji\Core\Fakes\System.Data.SqlClient.fakes : warning : System.SR için saplama oluşturulamıyor: Tür mühürlü.
+C:\Users\Furkan\source\repos\MiaTeknoloji\Core\Fakes\System.Data.SqlClient.fakes : warning : FxResources.System.Data.SqlClient.SR için dolgu oluşturulamıyor: Tür, exported or assembly(System.Data.SqlClient.4.2.0.1.Fakes) için görünür değil.
+C:\Users\Furkan\source\repos\MiaTeknoloji\Core\Fakes\System.Data.SqlClient.fakes : warning : System.SR için dolgu oluşturulamıyor: Tür, exported or assembly(System.Data.SqlClient.4.2.0.1.Fakes) için görünür değil.

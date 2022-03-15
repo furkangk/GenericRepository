@@ -1,0 +1,288 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Furkan\\source\\repos\\MiaTeknoloji\\WebAPI\\WebAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Furkan\\source\\repos\\MiaTeknoloji\\Business\\Business.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Furkan\\source\\repos\\MiaTeknoloji\\Business\\Business.csproj",
+        "projectName": "Business",
+        "projectPath": "C:\\Users\\Furkan\\source\\repos\\MiaTeknoloji\\Business\\Business.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Furkan\\source\\repos\\MiaTeknoloji\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Furkan\\source\\repos\\MiaTeknoloji\\Core\\Core.csproj"
+              },
+              "C:\\Users\\Furkan\\source\\repos\\MiaTeknoloji\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Furkan\\source\\repos\\MiaTeknoloji\\DataAccess\\DataAccess.csproj"
+              },
+              "C:\\Users\\Furkan\\source\\repos\\MiaTeknoloji\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Furkan\\source\\repos\\MiaTeknoloji\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Furkan\\source\\repos\\MiaTeknoloji\\Core\\Core.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Furkan\\source\\repos\\MiaTeknoloji\\Core\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "C:\\Users\\Furkan\\source\\repos\\MiaTeknoloji\\Core\\Core.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Furkan\\source\\repos\\MiaTeknoloji\\DataAccess\\DataAccess.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Furkan\\source\\repos\\MiaTeknoloji\\DataAccess\\DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "C:\\Users\\Furkan\\source\\repos\\MiaTeknoloji\\DataAccess\\DataAccess.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Furkan\\source\\repos\\MiaTeknoloji\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Furkan\\source\\repos\\MiaTeknoloji\\Core\\Core.csproj"
+              },
+              "C:\\Users\\Furkan\\source\\repos\\MiaTeknoloji\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Furkan\\source\\repos\\MiaTeknoloji\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Furkan\\source\\repos\\MiaTeknoloji\\Entities\\Entities.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Furkan\\source\\repos\\MiaTeknoloji\\Entities\\Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "C:\\Users\\Furkan\\source\\repos\\MiaTeknoloji\\Entities\\Entities.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Furkan\\source\\repos\\MiaTeknoloji\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Furkan\\source\\repos\\MiaTeknoloji\\Core\\Core.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Furkan\\source\\repos\\MiaTeknoloji\\WebAPI\\WebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Furkan\\source\\repos\\MiaTeknoloji\\WebAPI\\WebAPI.csproj",
+        "projectName": "WebAPI",
+        "projectPath": "C:\\Users\\Furkan\\source\\repos\\MiaTeknoloji\\WebAPI\\WebAPI.csproj",
+        "packagesPath": "C:\\Users\\Furkan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Furkan\\source\\repos\\MiaTeknoloji\\WebAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Furkan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "targetAlias": "netcoreapp3.0",
+            "projectReferences": {
+              "C:\\Users\\Furkan\\source\\repos\\MiaTeknoloji\\Business\\Business.csproj": {
+                "projectPath": "C:\\Users\\Furkan\\source\\repos\\MiaTeknoloji\\Business\\Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "targetAlias": "netcoreapp3.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Autofac.Extras.DynamicProxy": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Castle.Core": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.3.6, )"
+            },
+            "LinqKit": {
+              "target": "Package",
+              "version": "[1.2.2, )"
+            },
+            "LinqKit.Core": {
+              "target": "Package",
+              "version": "[1.2.2, )"
+            },
+            "MicroKnights.Log4NetAdoNetAppender": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.Bcl.AsyncInterfaces": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[1.1.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.Analyzers": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Microsoft.Extensions.Caching.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "System.Collections.Immutable": {
+              "target": "Package",
+              "version": "[1.7.1, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            },
+            "System.Diagnostics.DiagnosticSource": {
+              "target": "Package",
+              "version": "[4.7.1, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.14, )"
+            },
+            "log4net.Ext.Json": {
+              "target": "Package",
+              "version": "[2.0.10.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
