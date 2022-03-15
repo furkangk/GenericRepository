@@ -52,7 +52,7 @@ namespace Business.Concreate
             return new SuccessResult(Messages.LocationDeleteMessage);
         }
         [SecuredOperation("GetList")]
-        //  [PerformanceAspect(5)]
+        [PerformanceAspect(5)]
         [LogAspect("INFO")]
         public IDataResult<Location> GetById(int locationId)
         {
